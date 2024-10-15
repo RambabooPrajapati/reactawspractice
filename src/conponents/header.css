@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blue;
+    height: 80px;
+    width: auto;
+}
+.imageLogo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 2px 20px;
+
+    position: absolute;
+}
+.ulContainer{
+display: flex;
+justify-content: right;
+padding-top: 25px;
+padding-right: 30px ;
+gap: 15px;
+list-style: none;
+}
+.ulContainer li{
+background-color: aliceblue;
+padding: 8px;
+border-radius: 10px;
+}
+
+
+:link{
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+
